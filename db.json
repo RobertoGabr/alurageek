@@ -1,0 +1,184 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "imageUrl": "assets/produtos/starwars/img1.png",
+      "alt": "Caneca do Stormtrooper",
+      "category": "starWars",
+      "name": "Caneca Stormtrooper",
+      "price": 100.0,
+      "description": "Os prazeres de alguns prazeres e afins, a classe das dívidas acabará sendo ridícula, marrom fácil! Algum casamento? Para os membros, a menor distinção era seguir a ordem da ordem. Todos prepararam uma deliciosa refeição, algo na praia. Ele recusou? Convenientemente, porque foi dito que as dores são engraçadas? Dou-lhes dor até que lhes agrade a garganta. O portão da alma é uma grande alma.",
+      "amount": 11
+    },
+    {
+      "id": 2,
+      "imageUrl": "assets/produtos/starwars/img2.png",
+      "alt": "Capacete do Darth Vader",
+      "category": "starWars",
+      "name": "Capacete Darth Vader",
+      "price": 99.0,
+      "description": "",
+      "amount": 12
+    },
+    {
+      "id": 3,
+      "imageUrl": "assets/produtos/starwars/img3.png",
+      "alt": "Papel de Parede do Yoda",
+      "category": "starWars",
+      "name": "Wallpaper do Yoda",
+      "price": 90.0,
+      "description": "",
+      "amount": 13
+    },
+    {
+      "id": 4,
+      "imageUrl": "assets/produtos/starwars/img4.png",
+      "alt": "Wallpaer do Stormtrooper",
+      "category": "starWars",
+      "name": "Wallpaer Stormtrooper",
+      "price": 60.0,
+      "description": "",
+      "amount": 14
+    },
+    {
+      "id": 5,
+      "imageUrl": "assets/produtos/starwars/img5.png",
+      "alt": "Wallpaper do Darth Vader",
+      "category": "starWars",
+      "name": "Wallpaper Darth Vader",
+      "price": 65.0,
+      "description": "",
+      "amount": 15
+    },
+    {
+      "id": 6,
+      "imageUrl": "assets/produtos/starwars/img6.png",
+      "alt": "Boneco do Bebê Yoda",
+      "category": "starWars",
+      "name": "Boneco Baby Yoda",
+      "price": 99.0,
+      "description": "",
+      "amount": 16
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/cs-controle-xbox.svg?raw=true",
+      "alt": "Controle Xbox Robot",
+      "category": "Consoles",
+      "name": "Controle Xbox - Robot",
+      "price": 390.0,
+      "description": "",
+      "amount": 11
+    },
+    {
+      "id": 8,
+      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/cs-game-boy.svg?raw=true",
+      "alt": "Game Boy",
+      "category": "Consoles",
+      "name": "Game Boy RG35XX",
+      "price": 310.0,
+      "description": "",
+      "amount": 16
+    },
+    {
+      "id": 9,
+      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/cs-microsoft-xbox-x.svg?raw=true",
+      "alt": "Microsoft Xbox Series X",
+      "category": "Consoles",
+      "name": "Microsoft Xbox Series X",
+      "price": 42990.0,
+      "description": "",
+      "amount": 11
+    },
+    {
+      "id": 10,
+      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/cs-nintendo-switch.svg?raw=true",
+      "alt": "Nintendo Switch RED",
+      "category": "Consoles",
+      "name": "Nintendo Switch RED V2",
+      "price": 2175.0,
+      "description": "",
+      "amount": 11
+    },
+    {
+      "id": 11,
+      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/cs-playstation-5.svg?raw=true",
+      "alt": "playstation 5 blu edition",
+      "category": "Consoles",
+      "name": "playstation 5 blu edition",
+      "price": 4004.0,
+      "description": "",
+      "amount": 11
+    },
+    {
+      "id": 12,
+      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/cs-nintendo-system.svg?raw=true",
+      "alt": "Nintendo E. System",
+      "category": "Consoles",
+      "name": "Nintendo E. System",
+      "price": 550.0,
+      "description": "",
+      "amount": 11
+    },
+    {
+      "id": 13,
+      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/dv-boneco-do-sonic.svg?raw=true",
+      "alt": "boneco do sonic",
+      "category": "Diversos",
+      "name": "boneco do sonic",
+      "price": 611.0,
+      "description": "",
+      "amount": 11
+    },
+    {
+      "id": 14,
+      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/dv-oculos-box2-0-realidade.svg?raw=true",
+      "alt": "oculos box de realidade",
+      "category": "Diversos",
+      "name": "oculos box 2.0 realidade",
+      "price": 3452.0,
+      "description": "",
+      "amount": 11
+    },
+    {
+      "id": 15,
+      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/dv-pelucia-do-pikachu.svg?raw=true",
+      "alt": "Pokemon Pelucia do Pikachu",
+      "category": "Diversos",
+      "name": "Pokemon Pelucia Pikachu",
+      "price": 121.0,
+      "description": "",
+      "amount": 11
+    },
+    {
+      "id": 16,
+      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/dv-wallpaer-atari.svg?raw=true",
+      "alt": "wallpaer do atari",
+      "category": "Diversos",
+      "name": "wallpaer do atari",
+      "price": 90.0,
+      "description": "",
+      "amount": 11
+    },
+    {
+      "id": 17,
+      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/dv-wallpaer-boy.svg?raw=true",
+      "alt": "wallpaper do boygame",
+      "category": "Diversos",
+      "name": "wallpaper do boyGame",
+      "price": 67.0,
+      "description": "",
+      "amount": 11
+    },
+    {
+      "id": 18,
+      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/dv-wallpaer-radio-barbie.svg?raw=true",
+      "alt": "radio da barbie",
+      "category": "Diversos",
+      "name": "radio da barbie",
+      "price": 2590.0,
+      "description": "",
+      "amount": 11
+    }
+  ]
+}
