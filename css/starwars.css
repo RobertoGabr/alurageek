@@ -1,0 +1,45 @@
+.starwars {
+  display: flex;
+  flex-direction: column;
+  margin-top: 64px;
+}
+
+.starwarsContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.starwarsTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #464646;
+}
+
+.starwarsCard img {
+  margin-top: 1rem;
+}
+
+.starwarsText {
+  display: flex;
+  flex-direction: column;
+}
+
+.starwarsProduto {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: #464646;
+}
+
+.starwarsPreco {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: #464646;
+  font-weight: 700;
+}
+
+.starwarsLink {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: #2a7ae4;
+  font-weight: 700;
+}
