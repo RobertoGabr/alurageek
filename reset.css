@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1;
-  color: var(--cor-do-texto);
+  color: white;
 }
 ol,
 ul,
@@ -50,6 +50,7 @@ span {
 .container {
   box-sizing: border-box;
   max-width: 1200px;
+  padding-top: 1.5rem;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
