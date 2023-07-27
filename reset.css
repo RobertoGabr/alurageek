@@ -1,0 +1,57 @@
+body {
+  box-sizing: border-box;
+  font-family: "Raleway";
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  color: var(--cor-do-texto);
+}
+ol,
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--cor-do-texto);
+}
+
+h1 {
+  margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+p,
+blockquote {
+  margin: 0px;
+}
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+span {
+  margin: 0px;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
