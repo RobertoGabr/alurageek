@@ -1,0 +1,33 @@
+.backgroundImg {
+  background-image: url("../assets/banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.promocao {
+  display: flex;
+  flex-direction: column;
+  height: 352px;
+  align-items: start;
+  justify-content: end;
+}
+
+.promocaoTitulo {
+  font-size: 52px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.promocaoDescricao {
+  padding-top: 1rem;
+  font-size: 22px;
+  color: #fff;
+}
+
+.promocaoConsoles {
+  background-color: #2a7ae4;
+  margin-top: 1rem;
+  margin-bottom: 32px;
+  padding: 1rem;
+  color: #fff;
+}
