@@ -1,43 +1,49 @@
-.starwars {
+.produtos {
   display: flex;
   flex-direction: column;
   margin-top: 64px;
 }
 
-.starwarsContainer {
+.produtosContainerStar,
+.produtosContainerConsole {
   display: flex;
   gap: 1rem;
 }
 
-.starwarsTitle {
+.produtosTitle {
+  display: flex;
   font-size: 2rem;
   font-weight: 700;
   color: #464646;
 }
 
-.starwarsCard img {
+.consoles {
+  margin-top: 40px;
+}
+
+.produtosCard img {
   margin-top: 1rem;
 }
 
-.starwarsText {
+.produtosText {
   display: flex;
   flex-direction: column;
 }
 
-.starwarsProduto {
+.produtosProduto {
   font-size: 1rem;
   margin-top: 0.5rem;
   color: #464646;
 }
 
-.starwarsPreco {
+.produtosPreco {
   font-size: 1rem;
   margin-top: 0.5rem;
   color: #464646;
   font-weight: 700;
 }
 
-.starwarsLink {
+.produtosLink {
   font-size: 1rem;
   margin-top: 0.5rem;
   color: #2a7ae4;
