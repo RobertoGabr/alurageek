@@ -38,22 +38,38 @@
     </section>
   </main>
 
-  <section class="produtos container">
-
-    <h3 class="produtosTitle">Star Wars</h3>
-    <ul class="produtosContainerStar">
-
-
-    </ul>
-    <h3 class="produtosTitle consoles">Consoles</h3>
-    <ul class="produtosContainer">
-
-    </ul>
+  <section id="starWars" class="section-star-wars container">
+    <div class="titulo">
+      <h3>Star Wars</h3>
+      <a href="login.html">
+        Ver tudo
+        <img src="assets/arrow_back_black_24dp 1.svg">
+      </a>
+    </div>
+    <ul class="produtos"> </ul>
   </section>
+  <section id="consoles" class="section-consoles container">
+    <div class="titulo">
+      <h3>Consoles</h3>
+      <a href="login.html">
+        Ver tudo
+        <img src="assets/arrow_back_black_24dp 1.svg">
+      </a>
+    </div>
+    <ul class="produtos"> </ul>
   </section>
-
-
-  <script src="script.js" type="module"></script>
+  <section id="diversos" class="section-diversos container">
+    <div class="titulo">
+      <h3>Diversos</h3>
+      <a href="login.html">
+        Ver tudo
+        <img src="assets/arrow_back_black_24dp 1.svg">
+      </a>
+    </div>
+    <ul class="produtos"></ul>
+  </section>
+  <script type="module" src="services/produtosServices.js"></script>
+  <script type="module" src="controllers/produtosControllers.js"></script>
 </body>
 
 </html>
