@@ -1,0 +1,100 @@
+.formBackground{
+  background-color: #EAF2FD;
+}
+
+.form{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 112px;
+}
+
+.formContato{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.formInput{
+  margin-left: 112px;
+}
+
+.formInfo{
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+}
+
+.formFale{
+  color: #464646;
+  font-size: 1rem;
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+}
+
+.inputFlex{
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inputBox{
+  position: relative;
+}
+
+.inputBox input, textarea{
+  width: 200%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  color: #464646;
+  font-size: 1rem;
+}
+
+.inputBox .inputName{
+  padding-left: 10px;
+}
+
+.inputBox .inputMessage{
+  padding-left: 10px;
+  padding-bottom: 50px;
+}
+
+.inputBox label{
+  position: absolute;
+  top: 0;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 1rem;
+  color: #A2A2A2;
+  transition: 0.5s;
+}
+
+.divTextarea textarea:valid ~ label,
+.divTextarea textarea:focus ~ label{
+  transform: translateX(10px) translateY(-7px);
+  font-size: 0.975em; 
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.inputBox input:valid ~ label,
+.inputBox input:focus ~ label{
+  transform: translateX(10px) translateY(-7px);
+  font-size: 0.975em; 
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.formButton{
+  margin-top: 0.5rem;
+  background-color: #2A7AE4;
+  color: #ffffff;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  border: none;
+}

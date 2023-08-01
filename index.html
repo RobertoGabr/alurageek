@@ -68,6 +68,55 @@
     </div>
     <ul class="produtos"></ul>
   </section>
+
+  <section class="formBackground">
+    <div class="form container">
+      <div class="formLogo">
+        <img src="assets/logo.png" alt="Logo Alura">
+      </div>
+
+      <div class="formContato">
+        <ul class="formInfo">
+          <a href="#">
+            <li>Quem somos nós</li>
+          </a>
+          <a href="#">
+            <li>Política de privacidade</li>
+          </a>
+          <a href="#">
+            <li>Programa fidelidade</li>
+          </a>
+          <a href="#">
+            <li>Quero ser franqueado</li>
+          </a>
+          <a href="#">
+            <li>Anuncie aqui</li>
+          </a>
+        </ul>
+
+        <form name="contato" id="contato" class="formInput">
+          <span class="formFale">Fale conosco</span>
+          <div class="inputFlex">
+            <div class="inputBox">
+              <input type="name" class="inputName" required maxlength="40ch">
+              <label>Nome</label>
+            </div>
+            <div class="inputBox">
+              <div class="divTextarea">
+                <textarea name="message" class="inputMessage"></textarea>
+                <label>Escreva sua mensagem</label>
+              </div>
+            </div>
+          </div>
+          <button type="submit" class="formButton">Enviar mensagem</button>
+      </div>
+    </div>
+    </form>
+  </section>
+
+  <footer>
+
+  </footer>
   <script type="module" src="services/produtosServices.js"></script>
   <script type="module" src="controllers/produtosControllers.js"></script>
 </body>
