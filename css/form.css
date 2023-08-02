@@ -1,100 +1,177 @@
-.formBackground{
-  background-color: #EAF2FD;
+.footer-container {
+  background-color: #eaf2fd;
 }
 
-.form{
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+.footer-ajuste-container {
   display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 64px 32px;
+}
+
+.footer-lado-esquerdo {
+  display: flex;
+  flex: 1 1;
   flex-wrap: wrap;
-  gap: 112px;
+  gap: 16px 112px;
+  min-width: 254px;
+}
+.footer-lado-esquerdo img {
+  width: 176px;
+  height: 50px;
 }
 
-.formContato{
+.footer-ajuste-container nav ul {
+  list-style: none;
   display: flex;
-  flex-wrap: wrap;
-}
-
-.formInput{
-  margin-left: 112px;
-}
-
-.formInfo{
-  display: flex;
+  flex-direction: column;
   gap: 24px;
-  flex-direction: column;
 }
-
-.formFale{
+.footer-ajuste-container nav li a {
+  font-size: 16px;
+  font-weight: 500;
   color: #464646;
-  font-size: 1rem;
-  font-weight: 700;
-  padding-bottom: 0.5rem;
 }
 
-.inputFlex{
-  padding-top: 10px;
+.form-footer {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 8px;
+  width: 560px;
 }
-
-.inputBox{
-  position: relative;
-}
-
-.inputBox input, textarea{
-  width: 200%;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  outline: none;
+.form-footer span {
+  font-weight: 700;
+  font-size: 16px;
   color: #464646;
-  font-size: 1rem;
 }
 
-.inputBox .inputName{
-  padding-left: 10px;
+.input-nome {
+  position: relative;
+  width: 100%;
+}
+.input-nome input {
+  padding: 28px 12px 7px;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  width: 100%;
+  color: #464646;
+  caret-color: #464646;
+  border-bottom: 1px solid #c8c8c8;
+  height: 53px;
 }
 
-.inputBox .inputMessage{
-  padding-left: 10px;
-  padding-bottom: 50px;
-}
-
-.inputBox label{
+.input-nome label,
+.div-textarea label {
   position: absolute;
-  top: 0;
-  padding: 10px;
+  top: 25px;
+  left: 12px;
   pointer-events: none;
-  font-size: 1rem;
-  color: #A2A2A2;
-  transition: 0.5s;
+  transition: 0.15s;
+  color: #a2a2a2;
+}
+.input-nome input:focus ~ label,
+.div-textarea textarea:focus ~ label,
+.input-nome input:valid ~ label,
+.div-textarea textarea:valid ~ label {
+  transform: translateY(-20px);
+  font-size: 13px;
+  color: #2a7ae4;
 }
 
-.divTextarea textarea:valid ~ label,
-.divTextarea textarea:focus ~ label{
-  transform: translateX(10px) translateY(-7px);
-  font-size: 0.975em; 
-  font-weight: bold;
-  padding: 0 10px;
+.div-textarea {
+  position: relative;
+  width: 100%;
+}
+.div-textarea textarea {
+  height: 82px;
+  width: 100%;
+  padding: 28px 12px 7px;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  color: #464646;
+  caret-color: #464646;
+  border-bottom: 1px solid #c8c8c8;
+  resize: none;
+  flex-grow: 1;
 }
 
-.inputBox input:valid ~ label,
-.inputBox input:focus ~ label{
-  transform: translateX(10px) translateY(-7px);
-  font-size: 0.975em; 
-  font-weight: bold;
-  padding: 0 10px;
-}
-
-.formButton{
-  margin-top: 0.5rem;
-  background-color: #2A7AE4;
-  color: #ffffff;
-  padding: 1rem;
-  font-size: 1rem;
+.form-footer button {
+  align-self: flex-start;
+  padding: 16px;
+  border: none;
+  font-size: 16px;
   font-weight: 400;
   cursor: pointer;
-  border: none;
+  background-color: #2a7ae4;
+  color: #fff;
+}
+.form-footer button:hover {
+  background-color: #5595e9;
+}
+
+.creditos-desenvolvedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 0;
+}
+.creditos-desenvolvedor span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #464646;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+.github {
+  height: 35px;
+}
+
+@media (max-width: 700px) {
+  .footer-lado-esquerdo {
+    min-width: 200px;
+  }
+  .footer-lado-esquerdo img {
+    width: 130px;
+  }
+  .footer-lado-esquerdo nav ul li a {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 570px) {
+  .footer-ajuste-container {
+    flex-direction: column;
+    padding: 20px 30px;
+    gap: 40px;
+  }
+  .footer-lado-esquerdo {
+    margin: auto;
+    flex-direction: column;
+  }
+  .form-footer {
+    width: 100%;
+  }
+  .div-textarea textarea {
+    height: 140px;
+  }
+
+  .footer-lado-esquerdo img {
+    width: 100%;
+  }
+  .footer-lado-esquerdo nav ul li a {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 350px) {
+  .creditos-desenvolvedor span {
+    font-size: 14px;
+  }
 }

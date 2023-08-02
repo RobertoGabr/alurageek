@@ -69,53 +69,53 @@
     <ul class="produtos"></ul>
   </section>
 
-  <section class="formBackground">
-    <div class="form container">
-      <div class="formLogo">
-        <img src="assets/logo.png" alt="Logo Alura">
-      </div>
-
-      <div class="formContato">
-        <ul class="formInfo">
-          <a href="#">
-            <li>Quem somos nós</li>
-          </a>
-          <a href="#">
-            <li>Política de privacidade</li>
-          </a>
-          <a href="#">
-            <li>Programa fidelidade</li>
-          </a>
-          <a href="#">
-            <li>Quero ser franqueado</li>
-          </a>
-          <a href="#">
-            <li>Anuncie aqui</li>
-          </a>
-        </ul>
-
-        <form name="contato" id="contato" class="formInput">
-          <span class="formFale">Fale conosco</span>
-          <div class="inputFlex">
-            <div class="inputBox">
-              <input type="name" class="inputName" required maxlength="40ch">
-              <label>Nome</label>
-            </div>
-            <div class="inputBox">
-              <div class="divTextarea">
-                <textarea name="message" class="inputMessage"></textarea>
-                <label>Escreva sua mensagem</label>
-              </div>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-ajuste-container">
+        <div class="footer-lado-esquerdo">
+          <img src="assets/logo.png" alt="Logo Alura Geek">
+          <nav>
+            <ul>
+              <li><a href="">Quem somos nós</a></li>
+              <li><a href="">Política de privacidade</a></li>
+              <li><a href="">Programa fidelidade</a></li>
+              <li><a href="">Nossas lojas</a></li>
+              <li><a href="">Quero ser franqueado</a></li>
+              <li><a href="">Anuncie aqui</a></li>
+            </ul>
+          </nav>
+        </div>
+        <form class="form-footer" onsubmit="return validateForm()">
+          <span>Fale conosco</span>
+          <div class="input-nome">
+            <input class="footer-input-required" name="name" required>
+            <label>Nome</label>
+          </div>
+          <div class="ajuste-textarea">
+            <div class="div-textarea">
+              <textarea class="footer-textarea-required" name="message" required></textarea>
+              <label>Escreva sua mensagem</label>
             </div>
           </div>
-          <button type="submit" class="formButton">Enviar mensagem</button>
+          <span id="error-msg" style="display: none; color: red;"></span>
+          <span id="success-msg" style="display: none; color: green;"></span>
+          <button class="botao-footer" type="submit">Enviar Mensagem</button>
+        </form>
       </div>
     </div>
-    </form>
-  </section>
-
-  <footer>
-
+    <div class="creditos-desenvolvedor">
+      <span>
+        Desenvolvido por Roberto Gabriel
+      </span>
+      <div class="icon">
+        <span>
+          2023
+        </span>
+        <a href="https://github.com/osvaldocjr?tab=repositories" target="_blank">
+          <img src="assets/github.png" class="github">
+        </a>
+      </div>
+    </div>
   </footer>
   <script type="module" src="services/produtosServices.js"></script>
   <script type="module" src="controllers/produtosControllers.js"></script>

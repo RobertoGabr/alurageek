@@ -1,6 +1,8 @@
 .backgroundImg {
   background-image: url("../assets/banner.png");
   background-size: cover;
+  background-position: 50%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -54,4 +56,5 @@
  .promocaoConsoles{
   padding: 0.7rem;
  }
+
 }
