@@ -8,7 +8,7 @@ export const novoProduto = (imagem, name, id, preco, alt) => {
   <div class="produtosText">
     <span class="produtoTitle">${name}</span>
     <span class="produtosPrice">R$ ${preco}</span>
-    <a href="" class="produtosLink">Ver produto</a>
+    <a href="products.html?id=${id}" class="produtosLink">Ver produto</a>
   </div>
 </div>
   `;
