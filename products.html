@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alura Geek</title>
-  <link rel="stylesheet" href="reset.css">
+  <link rel="icon" type="image/png" href="assets/image/header/logo/alurageek-control.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="reset.css">
 </head>
 
 <body>
@@ -19,7 +18,7 @@
 
     <div class="headerLeft">
       <div class="logoAlura">
-        <a href="#"><img src="assets/logo.png" alt=""></a>
+        <a href="index.html"><img src="assets/logo.png" alt=""></a>
       </div>
       <div class="searchBox">
         <input type="text" placeholder="O que deseja encontrar?" class="search">
@@ -28,46 +27,9 @@
         </a>
       </div>
     </div>
-    <a href="login.html" class="btnLogin">Login</a>
+    <a href="login.html" class="btnLogin" style="display: none;">Login</a>
   </header>
-  <main class="backgroundImg">
-    <section class="promocao container">
-      <h1 class="promocaoTitulo">Dezembro Promocional</h1>
-      <span class="promocaoDescricao">Produtos selecionados com 33% de desconto</span>
-      <a href="" class="promocaoConsoles">Ver Consoles</a>
-    </section>
-  </main>
-
-  <section id="starWars" class="section-star-wars container">
-    <div class="titulo">
-      <h3>Star Wars</h3>
-      <a href="login.html">
-        Ver tudo
-        <img src="assets/arrow_back_black_24dp 1.svg">
-      </a>
-    </div>
-    <ul class="produtos"> </ul>
-  </section>
-  <section id="consoles" class="section-consoles container">
-    <div class="titulo">
-      <h3>Consoles</h3>
-      <a href="login.html">
-        Ver tudo
-        <img src="assets/arrow_back_black_24dp 1.svg">
-      </a>
-    </div>
-    <ul class="produtos"> </ul>
-  </section>
-  <section id="diversos" class="section-diversos container">
-    <div class="titulo">
-      <h3>Diversos</h3>
-      <a href="login.html">
-        Ver tudo
-        <img src="assets/arrow_back_black_24dp 1.svg">
-      </a>
-    </div>
-    <ul class="produtos"></ul>
-  </section>
+  <main class="produto-especifico"></main>
 
   <footer>
     <div class="footerContainer">
@@ -117,9 +79,7 @@
       </div>
     </div>
   </footer>
-  <script src="js/footer.js"></script>
-  <script type="module" src="services/produtosServices.js"></script>
-  <script type="module" src="controllers/produtosControllers.js"></script>
+
 </body>
 
 </html>

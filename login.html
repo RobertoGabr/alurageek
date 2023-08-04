@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alura Geek</title>
+  <link rel="icon" type="image/png" href="assets/image/header/logo/alurageek-control.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+  <header class="header container">
+
+    <div class="headerLeft">
+      <div class="logoAlura">
+        <a href="index.html"><img src="assets/logo.png" alt=""></a>
+      </div>
+      <div class="searchBox">
+        <input type="text" placeholder="O que deseja encontrar?" class="search">
+        <a href="#">
+          <img src="assets/lupa.svg" alt="Lupa" class="lupa">
+        </a>
+      </div>
+    </div>
+  </header>
+  <div class="container-login">
+    <form class="form-login">
+      <span>Iniciar Sessão</span>
+      <div class="input-usuario">
+        <input type="text" id="usuario" name="text" required>
+        <label>Escreva seu usuário</label>
+      </div>
+      <div class="input-senha">
+        <input type="password" id="senha" name="password" required>
+        <label>Escreva sua senha</label>
+      </div>
+      <button type="submit">Entrar</button>
+    </form>
+  </div>
+
+  <footer>
+    <div class="footerContainer">
+      <div class="footerAjusta">
+        <div class="footerLeft">
+          <img src="assets/logo.png" alt="Logo Alura Geek">
+          <nav>
+            <ul>
+              <li><a href="">Quem somos nós</a></li>
+              <li><a href="">Política de privacidade</a></li>
+              <li><a href="">Programa fidelidade</a></li>
+              <li><a href="">Nossas lojas</a></li>
+              <li><a href="">Quero ser franqueado</a></li>
+              <li><a href="">Anuncie aqui</a></li>
+            </ul>
+          </nav>
+        </div>
+        <form class="footerForm" onsubmit="return validateForm()">
+          <span>Fale conosco</span>
+          <div class="inputName">
+            <input class="inputRequired" name="name" required>
+            <label>Nome</label>
+          </div>
+          <div class="inputArea">
+            <div class="divArea">
+              <textarea class="areaRequired" name="message" required></textarea>
+              <label>Escreva sua mensagem</label>
+            </div>
+          </div>
+          <span id="errorMsg" style="display: none; color: red;"></span>
+          <span id="sucessMsg" style="display: none; color: green;"></span>
+          <button class="footerButton" type="submit">Enviar Mensagem</button>
+        </form>
+      </div>
+    </div>
+    <div class="creditosDesenvolvedor">
+      <span>
+        Desenvolvido por Roberto Gabriel
+      </span>
+      <div class="icon">
+        <span>
+          2023
+        </span>
+        <a href="https://github.com/RobertoGabr" target="_blank">
+          <img src="assets/github.png" class="github">
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/login.js"></script>
+  <script type="module" src="js/footer.js"></script>
+</body>
+
+</html>
