@@ -57,7 +57,7 @@
     {
       "id": 7,
       "name": "Controle Xbox",
-      "imagem": "https://raw.githubusercontent.com/thiagofeldner/AluraGeek/51a9f3a86fe08faf5f33f7d5b4014694bfea8e3a/assets/imagens/controle_xbox.svg",
+      "imagem": "assets/produtos/consoles/console1.png",
       "preco": "100.00",
       "alt": "Imagem do produto",
       "categoria": "Consoles",
