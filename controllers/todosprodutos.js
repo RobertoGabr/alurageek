@@ -1,11 +1,11 @@
 import { produtosServicos } from "../services/produtosServices.js";
 
 function estrutura() {
-  const produtoMain = document.querySelector(".produto-especifico");
+  const produtoMain = document.querySelector(".produtoEspecifico");
   produtoMain.innerHTML = `<div class="todos-produtos container">
-  <div class="titulo titulo-espaco">
+  <div class="titulo">
       <h3>Todos os produtos</h3>
-      <a href="add-products.html">Adicionar produto</a>
+      <a href="addproducts.html">Adicionar produto</a>
   </div>
   <ul class="produtos"></ul>
 </div>`;

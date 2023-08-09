@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alura Geek</title>
+  <link rel="icon" type="image/png" href="assets/image/header/logo/alurageek-control.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+  <header class="header container">
+
+    <div class="headerLeft">
+      <div class="logoAlura">
+        <a href="index.html"><img src="assets/logo.png" alt=""></a>
+      </div>
+      <div class="searchBox">
+        <input type="text" placeholder="O que deseja encontrar?" class="search">
+        <a href="#">
+          <img src="assets/lupa.svg" alt="Lupa" class="lupa">
+        </a>
+      </div>
+    </div>
+    <a href="login.html" class="btnLogin" style="display: none;">Login</a>
+  </header>
+
+  <main class="addProdutos" id="mainProdutos">
+    <div class="produtosEditar" id="addProdutos">
+      <form action="submit" class="addForm" data-formulario>
+        <h3>Adicionar novo produto</h3>
+        <div class="addImage">
+          <input type="url" name="url" class="inputUrl" required data-url>
+          <label class="labelUrl">URL da imagem</label>
+        </div>
+        <div class="addName">
+          <input type="text" name="nome" class="inputNome" required data-name>
+          <label class="labelName">Nome do produto</label>
+        </div>
+        <div class="addPreco">
+          <input type="text" name="price" class="inputPreco" required data-preco>
+          <label class="labelPreco">Preço</label>
+        </div>
+        <div class="descricaoEdita">
+          <textarea name="descricao" class="inputDescricao" required maxlength="150" data-descricao></textarea>
+          <label class="labelDescricao">Descrição do produto</label>
+        </div>
+        <button type="submit" class="addProduct">Enviar produto</button>
+      </form>
+    </div>
+  </main>
+
+  <script src="controllers/addProdutos.js" type="module"></script>
+</body>
